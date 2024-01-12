@@ -1,0 +1,25 @@
+{
+  "name": "unit_testing_example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "learning program",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test"
+  },
+  "author": "Maria Ulyanova",
+  "license": "ISC",
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^1.5.3",
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "c8": "^9.0.0",
+    "chai": "^5.0.0",
+    "husky": "^8.0.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  }
+}
